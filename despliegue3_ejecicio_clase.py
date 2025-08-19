@@ -82,7 +82,7 @@ if uploaded_file is not None:
         df['Predicted_Label_RF'] = predicted_labels_RF
 
         st.write("Predicciones (Random Forest Classifier):")
-        st.write(df[['ID', 'Predicted_Aprobo_RF','Predicted_label_RF']].head())
+        st.write(df[['ID', 'Predicted_Aprobo_RF','Predicted_Label_RF']].head())
 
 
 
